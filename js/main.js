@@ -26,3 +26,9 @@ function handleClick () {
     alert('It is a draw!')
   }
 }
+
+function updateBoard () {
+  document.querySelector('.cell').forEach((cell,index) => {
+    cell.textContent = board[index]
+  })
+}
