@@ -1,3 +1,4 @@
+// javascript file
 document.addEventListener("DOMContentLoaded", () => {
   const gameBorder = document.getElementById('gameBorder')
   const restartBtn = document.getElementById('restartBtn')
@@ -32,3 +33,6 @@ function updateBoard () {
     cell.textContent = board[index]
   })
 }
+
+
+
